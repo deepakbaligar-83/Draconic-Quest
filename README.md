@@ -6,7 +6,6 @@ The Hunter need to buy weapons to fight with beasts:<br>
 Store<br>
 -The Hunter can buy health by spending (20 Gold).<br>
 -The Hunter can by any weapon by spending (30 Gold).
-
 <br>
 Beasts are :-<br>
 1.Bats<br>
@@ -19,5 +18,5 @@ Weapons are :-<br>
 3.CrossBow<br>
 4.Sword<br>
 <br>
-<br>
+
 When you kill the dragon you win the game.
