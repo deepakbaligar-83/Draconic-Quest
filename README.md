@@ -12,7 +12,7 @@ Beasts are :-<br>
 1.Bats<br>
 2.Fanged Beasts<br>
 3.Dragon<br>
-
+<br>
 Weapons are :-<br>
 1.Knife<br>
 2.Dagger<br>
