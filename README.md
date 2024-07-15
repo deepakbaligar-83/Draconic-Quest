@@ -7,6 +7,7 @@ Store<br>
 -The Hunter can buy health by spending (20 Gold).<br>
 -The Hunter can by any weapon by spending (30 Gold).
 <br>
+
 Beasts are :-<br>
 1.Bats<br>
 2.Fanged Beasts<br>
