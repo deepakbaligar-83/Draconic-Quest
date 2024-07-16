@@ -1,4 +1,4 @@
-I have create a Hunter game called "Draconic Quest".
+I have create a responsive Hunter game called "Draconic Quest".
 <br>
 
 The Hunter need to buy weapons to fight with beasts:<br>
