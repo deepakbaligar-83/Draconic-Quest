@@ -11,6 +11,9 @@ body {
     position: relative;
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .game-image {
@@ -24,26 +27,34 @@ body {
 #game {
     position: relative;
     background-color: rgba(211, 211, 211, 0.8); /* Light gray with some transparency */
-    max-width: 500px;
-    max-height: 400px;
-    margin-top: 150px;
-    margin-left: 540px;
+    max-width: 90%;
+    width: 500px;
+    max-height: 80%;
     padding: 10px;
     border-radius: 1px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #stats {
     border: 1px solid black;
     padding: 5px;
     margin-bottom: 10px;
+    width: 100%;
 }
 
 #button {
     border: 1px solid black;
     padding: 20px;
     margin-bottom: 10px;
+    width: 94%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #text {
@@ -52,18 +63,47 @@ body {
     background-color: black;
     color: white;
     margin-bottom: 10px;
+    width: 94%;
 }
 
 #button1, #button2, #button3 {
-    padding: 5px;
+    padding: 10px;
     cursor: pointer;
-    margin-right: 5px;
+    margin: 5px;
+    flex: 1;
+    max-width: calc(33% - 10px); /* Ensure space between buttons */
+    box-sizing: border-box;
 }
 
 #monsterStats {
     display: none;
     border: 1px solid black;
-    padding: 2px;
+    padding: 5px;
     background-color: red;
     color: white;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    #game {
+        max-width: 95%;
+        max-height: 90%;
+    }
+
+    #button1, #button2, #button3 {
+        width: 100%;
+        max-width: none;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    #stats, #button, #text {
+        padding: 10px;
+    }
+
+    #button1, #button2, #button3 {
+        padding: 8px;
+        font-size: 14px;
+    }
 }
